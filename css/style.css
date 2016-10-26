@@ -51,3 +51,15 @@ section .container{
     max-width: 100%;
     margin-bottom: 10px;
 }
+.portolio_block{
+    padding-top: 10%;
+}
+.portolio_block:hover{
+    cursor: pointer;
+}
+.portolio_row{
+    margin-top: 20px;
+}
+.dialog_img{
+    width: 60%;
+}
