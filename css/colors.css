@@ -2,9 +2,37 @@ body{
     background-color: #ccc;
     color: #000 !important;	
 }
+footer{
+	background-color: #161616;
+	color: #fff;
+}
 .top-nav-collapse {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .main_title_block{
     color: #fff;
+}
+.title_button{
+    border-color: #fff;
+    color: #fff;
+}
+.title_button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.steps{
+	background-color: #161616;
+}
+.steps h4,
+.steps h5{
+	color: #fff;
+}
+.aboutus{
+	background-color: #ccc;
+}
+.portolio{
+	background-color: #fff;
+}
+.contacts{
+	background-color: #c3c3c3;
 }

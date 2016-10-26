@@ -2,12 +2,39 @@ body{
     /*padding-top: 80px;*/
     position: relative;
 }
+footer{    
+    margin-bottom: -10px;
+}
 .home{
     height: 100vh;
 }
 .section{
     height: 600px;
+    position: relative;
 }
 .main_title_block{
     padding-top: 55vh;
+}
+.title_button{
+    border: 3px solid;
+    padding: 10px 20px;
+    font-size: 24px;
+    -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+     -o-transition: all 0.3s;
+     transition: all 0.3s;
+}
+.title_button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+section h4{
+    margin: 20px 0 20px 0;
+}
+section h5{
+    margin: 0px 0 20px 0;
+}
+section{
+    border: 1px solid transparent;
 }
