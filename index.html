@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our site</title>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Arrow animations -->
+    <link href="css/arrow_animations.css" rel="stylesheet">
+
+    <!-- Color style -->
+    <link href="css/colors.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+        <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <script src="js/parallax.min.js"></script>
+
+    <script>
+        // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        $('.collapsible').collapsible();
+    </script>
+
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("a.ancLinks").click(function () {
+          var elementClick = $(this).attr("href");
+          var destination = $(elementClick).offset().top;
+          $('html,body').animate( { scrollTop: destination }, 1100 );
+          return false;
+        });
+        $(window).scroll(function(){                              // отслеживаем событие
+           if ( $(window).scrollTop() >= 80 ){                   // ставим условие
+              $('#section05').css('display','none');         // определяем действие
+           }
+           if ( $(window).scrollTop() == 0 ){                   // ставим условие
+              $('#section05').css('display','block');         // определяем действие
+           }
+        });
+      });
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+<!--Navigation-->
+<nav class="navbar navbar-fixed-top z-depth-2" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Logo</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand waves-effect waves-light" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#home" class="waves-effect waves-light ancLinks">Home</a></li>
+                <li><a href="#aboutus" class="waves-effect waves-light ancLinks">About</a></li>
+                <li><a href="#portolio" class="waves-effect waves-light ancLinks">Portfolio</a></li>
+                <li><a href="#contacts" class="waves-effect waves-light ancLinks">Contacst</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--/.Navigation-->
+
+<!--Home block-->
+<section id="home" class="parallax-window home" data-parallax="scroll" data-image-src="img/bg.jpg" data-name="home">
+    <div class="container">
+        <div class="row main_title_block">
+            <div class="col-md-12 text-center">
+                <h2 class="main_title">At vero eos et accusamus et iusto odio </h2>
+            </div>
+        </div>
+    </div>
+    <!-- Arrow block -->
+    <section id="section05" class="demo">
+        <a href="#steps" class="ancLinks"><span></span></a>
+    </section>
+    <!--/.Arrow block -->
+</section>
+<!--/.Home block-->
+
+<section class="section" id="steps" data-name="steps">
+    
+</section>    
+
+<section class="section" id="aboutus" data-name="aboutus">
+    
+</section>   
+
+<section class="section" id="portolio" data-name="portolio">
+    
+</section>   
+
+<section class="section" id="contacts" data-name="contacts">
+    
+</section>   
+
+
+    <footer></footer>
+
+<!--Main part-->
+
+
+
+
+
+
+</body>
+
+</html>

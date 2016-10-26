@@ -1,0 +1,10 @@
+body{
+    background-color: #ccc;
+    color: #000 !important;	
+}
+.top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.main_title_block{
+    color: #fff;
+}
