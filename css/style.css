@@ -9,7 +9,7 @@ footer{
     height: 100vh;
 }
 .section{
-    height: 600px;
+    /*height: 600px;*/
     position: relative;
 }
 .main_title_block{
@@ -30,11 +30,20 @@ footer{
     color: #000;
 }
 section h4{
-    margin: 20px 0 20px 0;
+    margin: 0px 0 20px 0;
 }
 section h5{
     margin: 0px 0 20px 0;
 }
 section{
     border: 1px solid transparent;
+}
+section .container{
+    padding: 20px 0;
+}
+.step_icon{
+    width: 100%;
+    padding: 20% 30%;
+    border: 1px solid;
+    font-size: 30px;    
 }
