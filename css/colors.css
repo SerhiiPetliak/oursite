@@ -49,3 +49,9 @@ footer{
 	background-color: #3f51b5;
 	color: #fff;
 }
+.md-overlay {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.md-content{
+	background-color: #00695C;
+}

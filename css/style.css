@@ -93,3 +93,12 @@ section .container{
 .contacts-button:hover{
     cursor: pointer;
 }
+.project-modal{
+    width: 80%;
+    max-width: 80%;
+    height: 90%;
+    overflow: auto;
+}
+.project-modal__img{
+    width: 100%;
+}
