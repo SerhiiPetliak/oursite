@@ -13,10 +13,13 @@ footer{
     /*height: 600px;*/
     position: relative;
 }
-.main_title_block{
+.main-title__block{
     padding-top: 55vh;
 }
-.title_button{
+.bold-text{
+    font-family: 'Roboto bold', sans-serif;
+}
+.main-title__button{
     border: 3px solid;
     padding: 10px 20px;
     font-size: 24px;
@@ -25,7 +28,7 @@ footer{
      -o-transition: all 0.3s;
      transition: all 0.3s;
 }
-.title_button:hover{
+.main-title__button:hover{
     cursor: pointer;
     background-color: #fff;
     color: #000;
@@ -42,7 +45,7 @@ section{
 section .container{
     padding: 20px 0;
 }
-.step_icon{
+.step__icon{
     width: 100%;
     padding: 20% 30%;
     border: 1px solid;
@@ -52,30 +55,27 @@ section .container{
     max-width: 100%;
     margin-bottom: 10px;
 }
-.portolio_block{
+.portolio__block{
     padding-top: 10%;
 }
-.portolio_block:hover{
+.portolio__block:hover{
     cursor: pointer;
 }
-.portolio_row{
+.portolio-row{
     margin-top: 20px;
 }
-.dialog_img{
+.dialog__img{
     width: 60%;
 }
-.contact_form{
-    width: 100%;
-}
-.contacts_input::-webkit-input-placeholder {
+.contacts__input::-webkit-input-placeholder {
     padding-left: 20px;
 }
-.contacts_input::-moz-placeholder{
+.contacts__input::-moz-placeholder{
     padding-left: 20px;
 }/* Firefox 19+ */
-.contacts_input:-moz-placeholder{
+.contacts__input:-moz-placeholder{
     padding-left: 20px;
 }/* Firefox 18- */
-.contacts_input:-ms-input-placeholder{
+.contacts__input:-ms-input-placeholder{
     padding-left: 20px;
 }

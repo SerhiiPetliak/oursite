@@ -9,14 +9,14 @@ footer{
 .top-nav-collapse {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.main_title_block{
+.main-title__block{
     color: #fff;
 }
-.title_button{
+.main-title__button{
     border-color: #fff;
     color: #fff;
 }
-.title_button:hover{
+.main-title__button:hover{
     background-color: #fff;
     color: #000;
 }
@@ -37,11 +37,11 @@ footer{
 .contacts{
 	background-color: #c3c3c3;
 }
-.step_icon{
+.step__icon{
 	border-color: #fff;
 	background-color: #fff;
 	color: #000;
 }
-.contacts_input{
+.contacts__input{
     background-color: #fff !important;
 }
