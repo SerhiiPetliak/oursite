@@ -72,7 +72,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 	#section05{
-		height: 10%;
+		height: 0px;
 	}
 }
 
@@ -80,14 +80,14 @@
 @media only screen and (min-width : 1200px) {
 	
 	#section05{
-		height: 10%;
+		height: 0px;
 	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1600px) {
 	#section05{
 		border: 0px solid red;
-		height: 200px;
+		height: 50px;
 	}
 	
 }

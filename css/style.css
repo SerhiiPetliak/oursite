@@ -13,10 +13,14 @@ footer{
     /*height: 600px;*/
     position: relative;
 }
-.main-title__block{
-    padding-top: 55vh;
+.home__container{
+    height: 100%;
 }
-.bold-text{
+.main-title__block{
+    position: relative;
+    top: calc( 50% - 100px );
+}
+.bold_text{
     font-family: 'Roboto bold', sans-serif;
 }
 .main-title__button{
