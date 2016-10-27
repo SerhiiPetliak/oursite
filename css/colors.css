@@ -45,3 +45,7 @@ footer{
 .contacts__input{
     background-color: #fff !important;
 }
+.contacts-button{
+	background-color: #3f51b5;
+	color: #fff;
+}
