@@ -53,7 +53,7 @@
     <!-- Color style -->
     <link href="css/colors.css" rel="stylesheet">
     
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
@@ -327,7 +327,7 @@
 </section>   
 
 
-<div class="contacts-button z-depth-2 animated shake md-trigger" data-modal="modal-6">
+<div class="contacts-button z-depth-2 wow shake md-trigger" data-modal="modal-6" data-wow-iteration="infinite" data-wow-duration="1500ms">
     <i class="fa fa-envelope-open-o fa-3x" aria-hidden="true"></i>
 </div>
 
@@ -383,6 +383,17 @@ $(".button-collapse").sideNav();
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
 $('.collapsible').collapsible();
 </script>
+
+<script src="js/wow.min.js"></script>
+              <script>
+              var wow = new WOW();
+                    wow.init();
+              setInterval(function() {
+                    $(".contacts-button").removeClass("animated");
+                     $(".contacts-button").addClass("animated");
+                }, 3000);
+              
+              </script>
 
 </body>
 
