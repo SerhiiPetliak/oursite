@@ -55,32 +55,35 @@
         <script src="js/snap.svg-min.js"></script>
         <script src="js/modernizr.custom.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-<!--Navigation-->
-<nav class="navbar navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Logo</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand waves-effect waves-light" href="#">Logo</a>
+
+<header>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Logo</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-light" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#home" class="waves-effect waves-light ancLinks">Home</a></li>
+                    <li><a href="#aboutus" class="waves-effect waves-light ancLinks">About</a></li>
+                    <li><a href="#portolio" class="waves-effect waves-light ancLinks">Portfolio</a></li>
+                    <li><a href="#contacts" class="waves-effect waves-light ancLinks">Contacts</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav pull-right">
-                <li><a href="#home" class="waves-effect waves-light ancLinks">Home</a></li>
-                <li><a href="#aboutus" class="waves-effect waves-light ancLinks">About</a></li>
-                <li><a href="#portolio" class="waves-effect waves-light ancLinks">Portfolio</a></li>
-                <li><a href="#contacts" class="waves-effect waves-light ancLinks">Contacts</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!--/.Navigation-->
+    </nav>
+</header>
 
 <!--Home block-->
 <section id="home" class="parallax-window home" data-parallax="scroll" data-image-src="img/bg.jpg" data-name="home">
@@ -316,10 +319,11 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-5">
+                <h5>Форма связи:</h5>
                 <form action="">
-                    <input type="text" class="contacts_input" placeholder="Ваше имя">
-                    <input type="text" class="contacts_input">
-                    <input type="text" class="contacts_input">
+                    <input type="text" class="contacts_input" placeholder="&nbsp;Ваше имя">
+                    <input type="text" class="contacts_input" placeholder="&nbsp;Телефон">
+                    <input type="email" class="contacts_input" placeholder="&nbsp;E-mail">
                     <input type="submit" class="btn btn-success" value="Отправить">
                 </form>
             </div> 

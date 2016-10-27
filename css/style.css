@@ -1,4 +1,5 @@
 body{
+    font-family: 'Roboto', sans-serif;
     /*padding-top: 80px;*/
     position: relative;
 }
@@ -66,6 +67,15 @@ section .container{
 .contact_form{
     width: 100%;
 }
-.contacts_input{
-    
+.contacts_input::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+.contacts_input::-moz-placeholder{
+    padding-left: 20px;
+}/* Firefox 19+ */
+.contacts_input:-moz-placeholder{
+    padding-left: 20px;
+}/* Firefox 18- */
+.contacts_input:-ms-input-placeholder{
+    padding-left: 20px;
 }
