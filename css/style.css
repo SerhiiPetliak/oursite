@@ -97,7 +97,8 @@ section .container{
     width: 80%;
     max-width: 80%;
     height: 90%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .project-modal__img{
     width: 100%;
@@ -113,3 +114,21 @@ section .container{
     animation-iteration-count: infinite;
     -webkit-amation-iteration-count: infinite
 } */
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+     
+     
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+     
+     
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }

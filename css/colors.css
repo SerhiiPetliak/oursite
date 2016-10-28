@@ -55,3 +55,9 @@ footer{
 .md-content{
 	background-color: #00695C;
 }
+::-webkit-scrollbar-thumb {
+    background: rgba(38, 166, 154, 0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
