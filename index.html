@@ -301,7 +301,7 @@
 </section>   
 
 
-<div class="contacts-button z-depth-2 wow shake md-trigger" data-modal="modal-6" data-wow-iteration="infinite" data-wow-duration="1500ms">
+<div class="contacts-button z-depth-2 wow shake md-trigger" data-modal="modal-6" data-wow-duration="2000ms" data-wow-iterration="infinite">
     <i class="fa fa-envelope-open-o fa-3x" aria-hidden="true"></i>
 </div>
 
@@ -359,15 +359,17 @@ $('.collapsible').collapsible();
 </script>
 
 <script src="js/wow.min.js"></script>
-              <script>
-              var wow = new WOW();
-                    wow.init();
-              setInterval(function() {
-                    $(".contacts-button").removeClass("animated");
-                     $(".contacts-button").addClass("animated");
-                }, 3000);
-              
-              </script>
+<script>
+    var wow = new WOW();
+    wow.init();     //Инициализируем анимацию кнопки конактов
+
+    setInterval(function() {
+        $(".contacts-button").prop("style","");                     
+    }, 3000);       //Останавливаем анимацию кнопки конактов
+    setInterval(function() {
+        $(".contacts-button").prop("style","visibility: visible; animation-duration: 2000ms; animation-iteration-count: infinite; animation-name: shake;");
+    }, 13000);      //Запускаем анимацию кнопки конактов
+</script>
 
 </body>
 
