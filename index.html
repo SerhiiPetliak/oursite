@@ -59,31 +59,29 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-
-<header>
-    <nav class="navbar navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar__header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="src-only"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand waves-effect waves-light bold_text" href="#">Logo</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#home" class="waves-effect waves-light ancLinks bold_text">Home</a></li>
-                    <li><a href="#aboutus" class="waves-effect waves-light ancLinks bold_text">About</a></li>
-                    <li><a href="#portolio" class="waves-effect waves-light ancLinks bold_text">Portfolio</a></li>
-                    <li><a href="#contacts" class="waves-effect waves-light ancLinks bold_text">Contacts</a></li>
-                </ul>
-            </div>
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand bold_text" href="#">Project name</a>
         </div>
-    </nav>
-</header>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar_position">
+                    <li><a href="#home" class="nav-link waves-effect waves-light ancLinks bold_text">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#aboutus" class="nav-link waves-effect waves-light ancLinks bold_text">About</a></li>
+                    <li><a href="#portolio" class="nav-link waves-effect waves-light ancLinks bold_text">Portfolio</a></li>
+                    <li><a href="#contacts" class="nav-linkwaves-effect waves-light ancLinks bold_text">Contacts</a></li>
+                </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
 
 <!--Home block-->
 <section id="home" class="home" class="parallax-window home" data-parallax="scroll" data-image-src="img/rr.jpg" data-name="home">
@@ -351,12 +349,7 @@
         <script src="js/css-filters-polyfill.js"></script>
 <!--/.Modal -->
 
-<script>
-    // Initialize collapse button
-$(".button-collapse").sideNav();
-// Initialize collapsible (uncomment the line below if you use the dropdown variation)
-$('.collapsible').collapsible();
-</script>
+
 
 <script src="js/wow.min.js"></script>
 <script>
