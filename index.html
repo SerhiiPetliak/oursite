@@ -59,7 +59,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -335,20 +335,24 @@
 <!-- Modal -->
 <div class="md-overlay"></div><!-- the overlay element -->
 
-        <!-- classie.js by @desandro: https://github.com/desandro/classie -->
-        <script src="js/classie.js"></script>
-        <script src="js/modalEffects.js"></script>
+<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+<script src="js/classie.js"></script>
+<script src="js/modalEffects.js"></script>
 
-        <!-- for the blur effect -->
-        <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
-        <script>
-            // this is important for IEs
-            var polyfilter_scriptpath = '/js/';
-        </script>
-        <script src="js/cssParser.js"></script>
-        <script src="js/css-filters-polyfill.js"></script>
+<!-- for the blur effect -->
+<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+<script>
+    // this is important for IEs
+    var polyfilter_scriptpath = '/js/';
+</script>
+<script src="js/cssParser.js"></script>
+<script src="js/css-filters-polyfill.js"></script>
 <!--/.Modal -->
 
+<script>
+    $('.button-callapse').sideNav();
+    $('.collapsible').collapsible();
+</script>
 
 
 <script src="js/wow.min.js"></script>
