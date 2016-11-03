@@ -103,21 +103,22 @@ section .container{
 .project-modal__img{
     width: 100%;
 }
-
 ::-webkit-scrollbar {
     width: 5px;
 }
- 
- 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     -webkit-border-radius: 5px;
     border-radius: 5px;
-}
- 
- 
+} 
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.steps__row{
+    margin-top: 20px;
+}
+.steps_arrow{
+    padding-top: calc( 50% - 80px );
 }
