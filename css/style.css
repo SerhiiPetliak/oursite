@@ -123,5 +123,5 @@ section .container{
     padding-top: calc( 50% - 80px );
 }
 .modal-close__button{
-    display: none;
+    display: none !important;
 }
