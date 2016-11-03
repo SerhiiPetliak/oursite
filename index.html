@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Our site</title>
+    <title>SWS group</title>
 
     <!-- Modal -->
     <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -69,11 +69,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand bold_text" href="#">Project name</a>
+          <a class="navbar-brand bold_text" href="#">SWS group</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar_position">
-                    <li><a href="#home" class="nav-link waves-effect waves-light ancLinks bold_text">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#home" class="nav-link waves-effect waves-light ancLinks bold_text home__button_transparent">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#aboutus" class="nav-link waves-effect waves-light ancLinks bold_text">About</a></li>
                     <li><a href="#portolio" class="nav-link waves-effect waves-light ancLinks bold_text">Portfolio</a></li>
                     <li><a href="#contacts" class="nav-linkwaves-effect waves-light ancLinks bold_text">Contacts</a></li>
@@ -84,7 +84,7 @@
 
 
 <!--Home block-->
-<section id="home" class="home" class="parallax-window home" data-parallax="scroll" data-image-src="img/rr.jpg" data-name="home">
+<section id="home" class="parallax-window home" data-parallax="scroll" data-image-src="img/bg.jpg" data-name="home">
     <div class="container home__container">
         <div class="row main-title__block">
             <div class="col-md-12 text-center">
@@ -299,7 +299,7 @@
 </section>   
 
 
-<div class="contacts-button z-depth-2 wow shake md-trigger" data-modal="modal-6" data-wow-duration="2000ms" data-wow-iterration="infinite">
+<div class="contacts-button z-depth-2 wow shake md-trigger" data-modal="modal-6" data-wow-duration="500ms" data-wow-iterration="infinite">
     <i class="fa fa-envelope-open-o fa-3x" aria-hidden="true"></i>
 </div>
 
@@ -313,7 +313,6 @@
         <div>
             <p>This is a modal window. You can do the following things with it:</p>
             <img src="img/snap.jpg" alt="" class="project-modal__img">
-            <button class="md-close">Close me!</button>
         </div>
     </div>
 </div>
@@ -362,9 +361,9 @@
 
     setInterval(function() {
         $(".contacts-button").prop("style","");                     
-    }, 3000);       //Останавливаем анимацию кнопки конактов
+    }, 500);       //Останавливаем анимацию кнопки конактов
     setInterval(function() {
-        $(".contacts-button").prop("style","visibility: visible; animation-duration: 2000ms; animation-iteration-count: infinite; animation-name: shake;");
+        $(".contacts-button").prop("style","visibility: visible; animation-duration: 500ms; animation-iteration-count: infinite; animation-name: shake;");
     }, 13000);      //Запускаем анимацию кнопки конактов
 </script>
 
